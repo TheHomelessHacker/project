@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">NewProjectOldTown</string>
+    <string name="о">карта</string>
+    <string name="o">Добро пожаловать в интерактивную карту Старый Город</string>
+    <string name="a">ГОТОВЫЕ МАРШРУТЫ</string>
+    <string name="b">карта</string>
+    <string name="с">СТАТИСТИКА</string>
+    <string name="Place">ДОСТОПРИМЕЧАТЕЛЬНОСТИ</string>
+</resources>

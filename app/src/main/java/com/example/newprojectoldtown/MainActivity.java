@@ -8,17 +8,19 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ListView;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-    private Button btn,btn2;
+    private Button btn, btn2;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        addListenerOnButton ();
+        addListenerOnButton();
     }
-    public void addListenerOnButton(){
+    public void addListenerOnButton() {
         btn = findViewById(R.id.button);
         btn2 = findViewById(R.id.button2);
         btn.setOnClickListener(view -> {
@@ -29,9 +31,5 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(".ThirdActivity");
             startActivity(intent);
         });
-
     }
-
-
-
-}
+    }

@@ -9,4 +9,289 @@
     android:orientation="vertical"
     tools:visibility="visible">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Здесь вы узнаете поподробнее о каждом памятнике. Его название, Адрес, некоторые особеноости."
+        android:textSize="19dp"
+        android:textColor="#E60F0F" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#0C0C0C"
+                android:text="1."
+                android:textSize="24dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="#0C0C0C"
+                android:layout_height="wrap_content"
+                android:text="Музей кружева. Бывшее здание Госбанка. Кремлёвская площадь, 12, Вологда, Россия. Бывшее здание Госбанка,объект культурного наследия федерального значения середины XIX века."
+                android:textSize="19dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#0C0C0C"
+                android:textSize="24dp"
+                android:text="2."
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#0C0C0C"
+                android:textSize="19dp"
+                android:text="Вологодский Кремль. улица Сергея Орлова, 15. Историко-архитектурный ансамбль в центральной части Вологды, заложенный как крепость в 1567 году по приказу царя Ивана Грозного и игравший роль оборонительного укрепления в XVI—XVII веках."
+               />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#0C0C0C"
+                android:textSize="24dp"
+                android:text="3."
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#0C0C0C"
+                android:textSize="19dp"
+                android:text="Дом кружевниц. Благовещенская улица, 20. Здание начала XX века принадлежало купцу Наумову и было местом встреч кружевниц. Поэтому в народе его так и называли «Дом кружевниц». Знаменитый деревянный дом является памятником культуры федерального значения. Еще в сентябре 2013 года он был отправлен на реставрацию в Кириллов. Специалисты заменили прогнившие бревна и восстановили внешнее убранство дома – элементы отделки."
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#0C0C0C"
+                android:textSize="24dp"
+                android:text="4."
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#0C0C0C"
+                android:textSize="19dp"
+                android:text="Усадьба Красильникова. Благовещенская улица, 22. XIX в.1912 г. Фасады дома декорированы с применением псевдорусских мотивов."
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#0C0C0C"
+                android:textSize="24dp"
+                android:text="5."
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#0C0C0C"
+                android:textSize="19dp"
+                android:text="Дом Бутыриной. Благовещенская улица, 24. 1902 г. Фасады дома декорированы с применением псевдорусских мотивов, имеются отдельные элементы модерна (двери с виноградными гроздьями )."
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#0C0C0C"
+                android:textSize="24dp"
+                android:text="6."
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#0C0C0C"
+                android:textSize="19dp"
+                android:text="Дом Королева. Благовещенская улица, 27. XIX в. Объемно-пространственная композиция дома и декоративное убранство тяготеют к приемам и формам классицизма первой половины XIX в."
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#0C0C0C"
+                android:textSize="24dp"
+                android:text="7."
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Дом Крылова.  Благовещенская улица, 46. XIX в, (1902 г.). Дом является типичным примером четырехквартирного жилого дома, который является важным элементом в формировании красной линии улицы. Его объемно-пространственнач композиция и архитектурно-декоративное убранство фасадов характерны для деревянного жилого строительства Вологды второй  половины XIX - начала XX вв."
+                android:textColor="#0C0C0C"
+                android:textSize="19dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#0C0C0C"
+                android:textSize="24dp"
+                android:text="8."
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#0C0C0C"
+                android:textSize="19dp"
+                android:text="Дом Пузан-Пузыревского. улица Герцена, 35. Жилой дом (деревянный), XIX в. (1868 г.). Здание является интересным примером городского дворянского особняка 1860-х годов. Выстроенный в строгих формах позднего классицизма, памятник отличается хорошими пропорциями и своеобразной объёмно-пространственной композицией, редко встречающейся  в жилой застройки Вологды."
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#0C0C0C"
+                android:textSize="24dp"
+                android:text="9."
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#0C0C0C"
+                android:textSize="19dp"
+                android:text="Дом Ситникова. улица Герцена, 36. XIX в.(1868 г.). Выстроенное в середине XIX века здание является примером характерной для Вологды жилой купеческой застройки. Типичный для своего времени памятник представляет двухэтажный дом на три квартиры с богато украшенными резьбой наличниками и балконом над входом второго этажа."
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#0C0C0C"
+                android:textSize="24dp"
+                android:text="10."
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#0C0C0C"
+                android:textSize="19dp"
+                android:text=" Дом Левашова. улица Герцена, 37. Дом Левашова (деревянный). Ворота (элемент комплекса). Дом жилой (Элемент комплекса). 1828 г.(первая половина  XIX в; 1861-1863 гг.). Дом Левашова - прекрасный образец деревянного зодчества первой половины XIX века. Выстроенный в стиле классицизма, он отличается удачно найденными пропорциями, хорошо прорисованными деталями и великолепно выполненной резьбой. Памятник является одним из лучших примеров дворянского особняка в Вологде."
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#0C0C0C"
+                android:textSize="24dp"
+                android:text="11."
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#0C0C0C"
+                android:textSize="19dp"
+                android:text="Дом жилой (дер.), XIX в.(1825 г., 1880 г.). Улица Герцена, 38. Дом является очень интересным образцом гражданской архитектуры середины XIX века г.Вологды. Особый интерес представляет уникальная резьба, украшающая фасады здания и живопись в интерьерах."
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#0C0C0C"
+                android:textSize="24dp"
+                android:text="12."
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#0C0C0C"
+                android:textSize="19dp"
+                android:text="Дом жилой. третья четверть XIX в. Зосимовская улица, 7А. Данные сооружения являлись частью обширной городской усадьбы, в состав которой входило несколько жилых домов и хозяйственных построек. По сведениям за 1910-1912 гг. усадьба принадлежала Суслоевым и состояла из пяти деревянных домов и сараев. Здания являются памятниками городской деревянной застройки третьей четверти XIX века. Выполненный в традициях позднего классицизма, отличается простотой композиционного решения, планировки и декора, а также своеобразным решением оформления мезонина."
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#0C0C0C"
+                android:textSize="24dp"
+                android:text="13."
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#0C0C0C"
+                android:textSize="19dp"
+                android:text="Дом Давыдова. Дом жилой (Элемент комплекса) 1902 г. Ленинградская улица, 2А. Памятник представляет значительный интерес как образец архитектуры модерна, так как здесь стиль проявился не только с декоративной своей стороны, но и конструктивно."
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#0C0C0C"
+                android:textSize="24dp"
+                android:text="14."
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#0C0C0C"
+                android:textSize="19dp"
+                android:text="Дом Засецких. Ленинградская улица, 12((раньше было напр. Победы, 32/12)). Дом Засецких с изразцовыми печами, XIX в. Одно из немногих зданий города, которое сохранило архитектурную отделку интерьеров конца XVIII  века. Уникальны кафельные печи и филенчатые двери парадных комнат."
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#0C0C0C"
+                android:textSize="24dp"
+                android:text="15."
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#0C0C0C"
+                android:textSize="19dp"
+                android:text="Усадьба Волкова XIX в. Ленинградская улица, 28. Сейчас дом жилой (дер.). Этот памятник – ценный образец архитектуры позднего классицизма входит в состав памятника градостроительства, комплекса застройки района."
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#0C0C0C"
+                android:textSize="24dp"
+                android:text="16."
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#0C0C0C"
+                android:textSize="19dp"
+                android:text="Усадьба Дружинина, жилой дом (деревянный). улица Мальцева, 16. Усадьба Дружинина  (входит в комплекс памятников). Дом Дружинина (элемент комплекса)XIX (середина XIX века). Здание чрезвычайно ценно как часть памятника градостроения восьмигранной площади спроектированной в 1734 году."
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#0C0C0C"
+                android:textSize="24dp"
+                android:text="17."
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#0C0C0C"
+                android:textSize="19dp"
+                android:text="Дом Дружинина (служба) XIX в. Сейчас дом жилой (дер.). Улица Мальцева, 18. Флигель-людская (элемент комплекса), здание является образцом усадебного дома постклассицизма, играет исключительно большую роль в градостроительной структуре города – формируя одну из интереснейших площадей старой Вологды."
+                />
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#0C0C0C"
+            android:textSize="24dp"
+            android:text="18."
+            />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#0C0C0C"
+                android:textSize="19dp"
+                android:text="Дом Купца Попова(середина XIX в.). Жилой дом. Редкий памятник позднего классицизма, значительный интерес представляют его интерьеры."
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#0C0C0C"
+                android:textSize="24dp"
+                android:text="19."
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#0C0C0C"
+                android:textSize="19dp"
+                android:text="Дом Караулова(XIX в.). улица Маяковского, 9(перенесен с ул. Добролюбова, 18). Сейчас дом жилой. Памятник входит в комплекс застройки Ленивой площадки."
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
 </LinearLayout>

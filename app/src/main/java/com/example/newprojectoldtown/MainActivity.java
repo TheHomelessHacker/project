@@ -18,11 +18,13 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        addListenerOnButton();
+        addListenerOnButton(); // вызов функции(перезод нановую активность, страницу)
     }
-    public void addListenerOnButton() {
+    public void addListenerOnButton() {  // Функия
+        // Находим кнопки по ID
         btn = findViewById(R.id.button);
         btn2 = findViewById(R.id.button2);
+        // по нажатию накнопку происходит переход на след активность(страницу), используем Intent(Намерение (Intent) - это механизм для описания одной операции перейти по указанному адресу.)
         btn.setOnClickListener(view -> {
             Intent intent = new Intent(".SecondActivity");
             startActivity(intent);

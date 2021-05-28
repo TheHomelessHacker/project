@@ -23,7 +23,7 @@ public class SecondActivity extends AppCompatActivity {
 // 1 кнопка
 private MapView mapview;
 private MapObjectCollection mapObjects;
-
+// Метки
 private final Point museum = new Point(59.223950,39.884906);
 private final Point kremlin = new Point(59.224024, 39.883197);
 private final Point naumov = new Point(59.220559, 39.882638);
@@ -47,11 +47,13 @@ private final Point karaulov = new Point(59.226257, 39.875407);
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
+        // берём API ключ нашей карты из кабинета разработчика(API Key — это строка символов, которую передает клиент в запросах к серверу. )
         MapKitFactory.setApiKey("c7455a3a-b649-4cf1-9b53-37f414de5d3c");
         MapKitFactory.initialize(this);
 
-        // Укажите имя activity вместо map.
+        // Укажите имя activity вместо map(где располагается карта)
         setContentView(R.layout.activity_secod);
+        // находим карты по ID
         mapview = (MapView)findViewById(R.id.mapview);
         mapview.getMap().move(
                 new CameraPosition(new Point(59.2239, 39.88398), 11.0f, 0.0f, 0.0f),
@@ -160,7 +162,7 @@ private final Point karaulov = new Point(59.226257, 39.875407);
 
     }
 
-
+    // Передаём события onStart и onStop в MapKitFactory и mapView, если этого несделать MapKit не сможет отобразить карту и остановить обработку карты, когда Activity с картой становится невидимым для пользователя:
     @Override
     protected void onStop() {
         super.onStop();
@@ -181,7 +183,7 @@ private final Point karaulov = new Point(59.226257, 39.875407);
         Canvas canvas = new Canvas(bitmap); //  (Холст) предоставляет методы для рисования
         // отрисовка плейсмарка
         Paint paint = new Paint(); //СОЗДАНИЕ ОБЪЕКТА КЛАССА PAINT ДЛЯ РИСОВАНИЯ
-        paint.setColor(Color.GREEN); //
+        paint.setColor(Color.GREEN); // цвет кружка
         paint.setStyle(Paint.Style.FILL);
         canvas.drawCircle(picSize / 2, picSize / 2, picSize / 2, paint); // рисует круг
         // отрисовка текста
